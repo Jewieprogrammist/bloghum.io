@@ -1,0 +1,23 @@
+body{
+    background-color: aliceblue;
+}
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 50px;
+    box-shadow: rgb(204, 199, 225) 0px 6px 5px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.form-group{
+    margin-top: 5px;
+}
+.page-login{
+    margin-left: 220px;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 600px;
+}
+.page-register{
+    margin-left: 100px;
+}

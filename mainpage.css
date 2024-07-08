@@ -1,0 +1,255 @@
+body {
+    font-family: montserrat;
+    background-color: aliceblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+input {
+    padding: 5px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 178, 178);
+    line-height: 1.5rem;
+    color: rgb(104, 104, 105);
+}
+
+.navbar-nav {
+    margin-left: auto;
+    color: #37447E;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        margin-left: 400px;
+    }
+}
+
+@media (max-width: 618px) {
+    .navbar-nav {
+        margin-left: 100px;
+    }
+}
+
+.drop-panel {
+    position: absolute;
+    left: -30px;
+    z-index: 88888;
+    display: none;
+}
+
+.nav-item:hover .drop-panel {
+    display: block;
+}
+
+.drops-item:hover {
+    background-color: rgb(207, 201, 206);
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    border-radius: 5px;
+}
+
+.drops-item {
+    padding-top: 5px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.content {
+    margin-top: 20px;
+    flex-grow: 1;
+}
+
+.main-content-title {
+    margin: 20px 0px;
+}
+
+.main-content .post {
+    margin-bottom: 20px;
+}
+
+.main-content .post_text {
+    background-color: rgb(207, 201, 206);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.main-content .post_text h2 {
+    font-size: 25px;
+    margin: 5px 0px;
+}
+
+.main-content .post_text h2:hover {
+    text-decoration: underline;
+    color: rgb(79, 79, 79);
+}
+
+.main-content .post_text i {
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.main-content .post_text p {
+    margin: 5px 0px;
+    border-top: 1px solid rgb(106, 105, 105);
+}
+
+.search {
+    margin-top: 78px;
+}
+
+.sidebar .section {
+    background-color: rgb(207, 201, 206);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.sidebar .categories ul {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgb(106, 105, 105);
+}
+
+.sidebar .categories ul li a {
+    display: block;
+    border-bottom: 1px solid rgb(106, 105, 105);
+    transition: all 0.3s;
+    padding: 15px 0px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.sidebar .categories ul li a:hover {
+    padding: 15px 15px;
+    color: rgb(106, 105, 105);
+}
+
+.footer {
+    background-color: rgb(207, 201, 206);
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer .footer-section {
+    padding: 10px;
+}
+
+.footer .about {
+    display: block;
+    font-size: 18px;
+}
+
+.footer .about p {
+    margin-top: 12px;
+}
+
+.footer .about .email-info {
+    font-weight: 500;
+    margin-top: -12px;
+    border-top: 1px solid rgb(106, 105, 105);
+    padding: 5px 0px;
+}
+
+.footer .links ul {
+    margin: 10px 10px;
+    padding: 0;
+}
+
+.footer .links ul a {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s;
+    margin-top: 5px;
+}
+
+.footer .links ul a:hover {
+    margin-left: 15px;
+}
+
+.footer .contact-form form {
+    margin: 10px 0px;
+}
+
+.footer .contact-form .contact-input {
+    line-height: 1.5rem;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: none;
+    color: rgb(131, 131, 131);
+}
+
+.footer .contact-form .contact-btn {
+    float: right;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s;
+    background-color: white;
+}
+
+.footer .contact-form .contact-btn:hover {
+    background-color: rgb(173, 172, 172);
+}
+
+.footer .footer-bottom {
+    background-color: rgb(99, 100, 100);
+    color: rgb(182, 180, 180);
+    text-align: center; 
+    width: 100%;
+    box-sizing: border-box;
+}
+.single_post{
+    margin-bottom: 20px;
+}
+.single_post .info{
+    margin: 20px 0px;
+    font-weight: 500;
+}
+.single_post .info i{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.single_post a{
+    color: rgb(4, 73, 50);
+    text-decoration: underline;
+}
+.single_post a:hover{
+    color: rgb(19, 159, 112);
+    text-decoration: none;
+}
+.text-input{
+    margin: 5px 0px;
+}
+.create_post{
+    margin-bottom: 10px;
+}
+.post_text i {
+    margin-left: 10px;
+}
+.post_text_title{
+    margin-left: 10px;
+}
+.delete{
+    margin-left: 100px;
+}
+
